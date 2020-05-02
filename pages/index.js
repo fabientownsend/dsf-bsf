@@ -31,7 +31,7 @@ export default function Index() {
         <Header style={{ background: "white" }}>
           <Radio.Group value={size} onChange={handleSizeChange}>
             <Radio.Button value="dfs">Deep First Search</Radio.Button>
-            <Radio.Button value="bfs">Breath First Search</Radio.Button>
+            <Radio.Button value="bfs">Breadth First Search</Radio.Button>
           </Radio.Group>
         </Header>
         <Content>
